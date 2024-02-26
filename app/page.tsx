@@ -25,9 +25,9 @@ export default function Home() {
       {/** Resume button */}
       <div className="flex justify-center">
       <a 
-        className="bg-green-800 hover:bg-yellow-500 text-white font-bold py-2 px-4 rounded"
-        href="public/Resume.pdf"
-        download="Resume.pdf">  
+        className="bg-green-800 hover:bg-yellow-500 text-white font-bold py-2 px-4 rounded"       
+        download="Resume.pdf"
+        href="public/Resume.pdf">  
         Resume
       </a> 
     </div>
