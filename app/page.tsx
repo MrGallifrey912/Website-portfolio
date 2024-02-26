@@ -26,8 +26,8 @@ export default function Home() {
       <div className="flex justify-center">
       <a 
         className="bg-green-800 hover:bg-yellow-500 text-white font-bold py-2 px-4 rounded mt-16 mb-16"
-        download="resume.pdf"
-        href="/resume.pdf">  
+        href="/Resume.pdf"
+        download="Andrew-Jones.pdf">  
         Resume
       </a> 
     </div>
