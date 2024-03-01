@@ -28,13 +28,13 @@ export default function Home() {
         className="resume-btn relative border border-transparent hover:border-yellow-500 shadow-inner text-white font-bold py-2 px-4 rounded mt-16 mb-16 mr-16"
         href="Resume.pdf"
         download="Andrew-Jones.pdf">  
-        Resume
+        CV / Resume
       </a> 
       <a 
         className="contact-btn hover:bg-yellow-500 text-white font-bold py-2 px-4 rounded mt-16 mb-16 ml-16"
         href="/forms"
         >  
-        Contact
+        Contact me
       </a>
     </div>
 
@@ -55,7 +55,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            See the services I offer and provide. contact me if you need something more or have further questions!
+            See the services I offer and provide. Contact me if you need something more or have further questions!
           </p>
         </Link>
 
@@ -72,7 +72,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Browse templates I have created for all platforms! SHop templates for all ma
+            Browse templates I have created for all platforms! Shop templates for all ma
           </p>
         </a>
 
