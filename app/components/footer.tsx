@@ -25,25 +25,25 @@ export default function Footer() {
                     </ul>
                 </div>
                 <div className="flex justify-between text-center">
-                    <p className="text-center -center">Built by Andrew Jones</p>
+                    <p className="text-center -center">Andrew Jones</p>
                 </div>
                 <div className="flex justify-between">
                     <ul className="relative">
                         {/* Github */}
                         <li>
-                            <a href="#">Github</a> 
+                            <a href="https://github.com/MrGallifrey912">Github</a> 
                         </li>
                         {/* LinkedIn */}
                         <li>
-                            <a href="#">LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/andrew-jones-408272286/">LinkedIn</a>
                         </li>
                         {/* Codepen */}
                         <li>
-                            <a href="#">CodePen</a>
+                            <a href="https://codepen.io/MrGallifrey912">CodePen</a>
                         </li>
                         {/* Fiverr */}
                         <li>
-                            <a href="#">Fiverr</a>
+                            <a href="https://www.fiverr.com/s/w6qWPv">Fiverr</a>
                         </li>
                     </ul>
                 </div>
