@@ -23,7 +23,7 @@ export default function Home() {
       </div>
 
       {/** Resume button */}
-      <div className="flex justify-evenly">
+      <div className="flex justify-btween">
       <a 
         className="resume-btn relative shadow-inner text-white font-bold py-2 px-4 rounded mt-16 mb-16"
         href="Resume.pdf"
