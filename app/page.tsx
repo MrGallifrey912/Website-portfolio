@@ -54,7 +54,7 @@ export default function Home() {
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50 justify-center`}>
             See the services I offer and provide. Contact me if you need something more or have further questions!
           </p>
         </Link>
@@ -71,7 +71,7 @@ export default function Home() {
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50 justify-center`}>
             Browse templates I have created for all platforms! Shop templates for all ma
           </p>
         </a>
@@ -88,7 +88,7 @@ export default function Home() {
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50 justify-center`}>
             Click here for General support and Frequently asked questions.
           </p>
         </a>
@@ -105,7 +105,7 @@ export default function Home() {
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance justify-center`}>
             I utilize Hostinger for all of my hosting needs, They provide a load of good features and are fast most importantly. Click me if youd like to host through hostinger! This is a refferal link.
           </p>
         </a>
