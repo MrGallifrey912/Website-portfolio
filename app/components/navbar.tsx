@@ -5,7 +5,7 @@ export default function Navigation() {
   return (
     
     <div className={"flex justify-center mt-0"}>{/** Nav Container */}
-    <div className={"flex fixed bg-gray-900 rounded-2xl p-2 m-12 justify-evenly w-[500px] sm:w-[80vw]"}>{/** UL Container */}
+    <div className={"flex fixed bg-gray-900 rounded-2xl p-2 m-12 justify-evenly w-[500px]"}>{/** UL Container */}
     <img className="w-10 h-10 relative rounded-[32px] border border-black justify-start" src="#" />{/** Nav img */}
       <ul className={"flex flex-row justify-items-center"}>{/** Nav index */}
         <li className={"mr-6"}><Link href="/" className={"text-green-50 hover:text-green-400"}>Home</Link></li>
