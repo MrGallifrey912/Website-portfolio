@@ -26,7 +26,7 @@ export default function Home() {
       <div className="flex justify-center">
       <a 
         className="resume-btn relative shadow-inner text-white font-bold py-2 px-4 rounded mt-16 mb-16"
-        href="resume.pdf"
+        href="Resume.pdf"
         download="Andrew-Jones.pdf">  
         Resume
       </a> 
