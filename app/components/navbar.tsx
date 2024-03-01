@@ -9,8 +9,8 @@ export default function Navigation() {
       <ul className={"flex flex-row justify-items-center"}>{/** Nav index */}
         <li className={"mr-6"}><Link href="/" className={"text-green-50 hover:text-green-400"}>Home</Link></li>
         <li className={"mr-6"}><Link href="/about" className={"text-green-50 hover:text-green-400"}>About</Link></li>
-        <li className={"mr-6"}><Link href="/projects" className={"text-green-50 hover:text-green-400"} disabled>Projects</Link></li>
-        <li className={"mr-6"}><Link href="/blog" className={"text-green-50 hover:text-green-400"} disabled>Blog</Link></li>
+        <li className={"mr-6"}><Link href="/projects" className={"text-green-50 hover:text-green-400"} style={{pointerEvents: "none"}}>Projects</Link></li>
+        <li className={"mr-6"}><Link href="/blog" className={"text-green-50 hover:text-green-400"} style={{pointerEvents: "none"}}>Blog</Link></li>
       </ul>
     </div>
     </div>
