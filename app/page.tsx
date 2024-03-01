@@ -25,7 +25,7 @@ export default function Home() {
       {/** Resume button */}
       <div className="flex justify-btween">
       <a 
-        className="resume-btn relative shadow-inner text-white font-bold py-2 px-4 rounded mt-16 mb-16"
+        className="resume-btn relative shadow-inner text-white font-bold py-2 px-4 rounded mt-16 mb-16 mr-16"
         href="Resume.pdf"
         download="Andrew-Jones.pdf">  
         Resume
@@ -49,13 +49,13 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Form Test{" "}
+            Services{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Contact Me.
+            See the services I offer and provide. contact me if you need something more or have further questions.
           </p>
         </Link>
 
