@@ -25,7 +25,7 @@ export default function Home() {
       {/** Resume button */}
       <div className="flex justify-center">
       <a 
-        className="relative bg-gradient-to-tr from-green-600 to-green-800 shadow-inner text-white font-bold py-2 px-4 rounded mt-16 mb-16"
+        className="resume-btn relative shadow-inner text-white font-bold py-2 px-4 rounded mt-16 mb-16"
         href="resume.pdf"
         download="Andrew-Jones.pdf">  
         Resume
