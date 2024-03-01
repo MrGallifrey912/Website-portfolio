@@ -44,7 +44,7 @@ export default function Home() {
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-center">
         <Link
           href="#"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 m-4 justify-center"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 m-4 text-center"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -54,14 +54,14 @@ export default function Home() {
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 justify-center`}>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-center`}>
             See the services I offer and provide. Contact me if you need something more or have further questions!
           </p>
         </Link>
 
         <a
           href="#"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 m-4 justify-center"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 m-4 text-center"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -71,14 +71,14 @@ export default function Home() {
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 justify-center`}>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-center`}>
             Browse templates I have created for all platforms! Shop templates for all ma
           </p>
         </a>
 
         <a
           href="#"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 m-4 justify-center"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 m-4 text-center"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -88,14 +88,14 @@ export default function Home() {
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 justify-center`}>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-center`}>
             Click here for General support and Frequently asked questions.
           </p>
         </a>
 
         <a
           href="https://hostinger.com?REFERRALCODE=1ANDREW173"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 m-4 justify-center"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 m-4 text-center"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -105,7 +105,7 @@ export default function Home() {
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance justify-center`}>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance text-center`}>
             I utilize Hostinger for all of my hosting needs, They provide a load of good features and are fast most importantly. Click me if youd like to host through hostinger! This is a refferal link.
           </p>
         </a>
