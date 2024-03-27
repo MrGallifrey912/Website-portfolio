@@ -2,11 +2,12 @@ import Script from 'next/script'
 
 export default function Education() {
     return (
-        
+        <>
+        <Script src="https://tryhackme.com/badge/2793447" />
         <div className="container flex fixed-right">
         <h2>tryHackMe.com Profile</h2>
-        <Script src="https://tryhackme.com/badge/2793447" />
-        <h2>Coursera Achievemnts</h2>
+        
+        <h2>Coursera Achievements</h2>
         <a href="https://www.credly.com/users/andrew-jones.6e832892">Credly Profile</a>
         <a href="https://www.credly.com/badges/6cb2a0f6-6aef-46b3-914b-27b11ec77adf">
             <img src="https://images.credly.com/size/340x340/images/5fc2d535-e716-46c4-881a-f4822b8da0e5/Cognitive_Class_-_What_is_Data_Science.png">
@@ -24,11 +25,14 @@ export default function Education() {
             <img src="https://images.credly.com/size/340x340/images/1447954e-9923-4703-a647-eac80e5f0682/image.png">
                 </img>
         </a>
-        <h2>freeCodeCamp.org Certs</h2>
-        <a href="https://www.freecodecamp.org/certification/mrgallifrey912/responsive-web-design">
-            Responsive Web Design Cert</a>
-        <a href="https://www.freecodecamp.org/certification/mrgallifrey912/javascript-algorithms-and-data-structures-v8">
-            JavaScript Algorithms and Data Structures (Beta)</a>
+        <div className="flex text-center">
+            <h2>freeCodeCamp.org Certs</h2>
+            <a href="https://www.freecodecamp.org/certification/mrgallifrey912/responsive-web-design">
+                Responsive Web Design Cert</a>
+            <a href="https://www.freecodecamp.org/certification/mrgallifrey912/javascript-algorithms-and-data-structures-v8">
+                JavaScript Algorithms and Data Structures (Beta)</a>
         </div>
+        </div>
+        </>
     );
 }
