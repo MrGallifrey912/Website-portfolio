@@ -3,7 +3,7 @@
 export default function Education() {
     return (
         <>
-        <div className="container flex">
+        <div className="container flex justify-center bg-gray-700">
         <div>
             <h3>tryHackMe.com</h3>
             <a href="https://tryhackme.com/p/andrewjones.tech">
@@ -31,11 +31,11 @@ export default function Education() {
         </li>
         <li>
         <a href="https://www.credly.com/badges/9b69f7a2-35e5-4a66-b111-d73a85ff7311">
-            <img src="https://images.credly.com/size/340x340/images/1447954e-9923-4703-a647-eac80e5f0682/image.png"></img>   
+            <img src="https://images.credly.com/size/340x340/images/1447954e-9923-4703-a647-eac80e5f0682/image.png"></img>  {/** mismatched img background */} 
         </a>
         </li>
         </ul>
-        <div className="flex center text-center">
+        <div className="flex center text-center m-4">
             <ul>
                 <label>freeCodeCamp.org Certs</label>
                 <li>
