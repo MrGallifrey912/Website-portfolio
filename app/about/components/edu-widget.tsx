@@ -7,7 +7,7 @@ export default function Education() {
         <div>
         <img src="https://tryhackme-badges.s3.amazonaws.com/andrewjones.tech.png" alt="TryHackMe"></img>
         </div>
-        
+
         <h2><a href="https://www.credly.com/users/andrew-jones.6e832892">Credly Profile</a></h2>
         <ul>
         <li>
@@ -31,9 +31,9 @@ export default function Education() {
         </a>
         </li>
         </ul>
-        <div className="flex text-center">
-            <h2>freeCodeCamp.org Certs</h2>
+        <div className="flex center text-center">
             <ul>
+                <lh>freeCodeCamp.org Certs</lh>
                 <li>
                     <a href="https://www.freecodecamp.org/certification/mrgallifrey912/responsive-web-design">
                 Responsive Web Design Cert</a>
