@@ -6,7 +6,7 @@ export default function Education() {
         
         <div className="container flex fixed-right">
         <div>
-        <img src="https://tryhackme-badges.s3.amazonaws.com/andrewjones.tech.png" alt="TryHackMe">
+        <img src="https://tryhackme-badges.s3.amazonaws.com/andrewjones.tech.png" alt="TryHackMe"></img>
         </div>
         <h2>Coursera Achievements</h2>
         <a href="https://www.credly.com/users/andrew-jones.6e832892">Credly Profile</a>
