@@ -8,7 +8,6 @@ export default function Education() {
         <Script src="https://tryhackme.com/badge/2793447" 
                 strategy="lazyOnload" />
         <div className="container flex fixed-right">
-        <h2>tryHackMe.com Profile</h2>
         
         <h2>Coursera Achievements</h2>
         <a href="https://www.credly.com/users/andrew-jones.6e832892">Credly Profile</a>
