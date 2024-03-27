@@ -4,6 +4,7 @@ import "./globals.css";
 import "./button-styles.css";
 import Navigation from "./components/navbar";
 import Footer from "./components/footer";
+import Education from "./components/eduWidget";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -22,7 +23,7 @@ export default function RootLayout({
     <html lang="en">
       
       <body className={inter.className}>
-        <Navigation />
+        <Navigation />       
         {children}
         <Footer />
       </body>
