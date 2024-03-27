@@ -11,8 +11,9 @@ export default function Education() {
             </a>
         </div>
 
-        <h2><a href="https://www.credly.com/users/andrew-jones.6e832892">Credly Profile</a></h2>
+        
         <ul>
+        <label><a href="https://www.credly.com/users/andrew-jones.6e832892">Credly Profile</a></label>
         <li>
         <a href="https://www.credly.com/badges/6cb2a0f6-6aef-46b3-914b-27b11ec77adf">
             <img src="https://images.credly.com/size/340x340/images/5fc2d535-e716-46c4-881a-f4822b8da0e5/Cognitive_Class_-_What_is_Data_Science.png"></img>
