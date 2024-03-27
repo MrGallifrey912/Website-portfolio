@@ -3,11 +3,11 @@ import Script from 'next/script'
 export default function Education() {
     return (
         <>
-        <head>
-        <script src="https://tryhackme.com/badge/2793447"></script>
-        </head>
-        <div className="container flex fixed-right">
         
+        <div className="container flex fixed-right">
+        <div>
+        <img src="https://tryhackme-badges.s3.amazonaws.com/andrewjones.tech.png" alt="TryHackMe">
+        </div>
         <h2>Coursera Achievements</h2>
         <a href="https://www.credly.com/users/andrew-jones.6e832892">Credly Profile</a>
         <a href="https://www.credly.com/badges/6cb2a0f6-6aef-46b3-914b-27b11ec77adf">
