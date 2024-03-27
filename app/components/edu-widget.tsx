@@ -2,7 +2,7 @@ import Script from 'next/script'
 
 export default function Education() {
     return (
-        <>
+        
         <div className="container flex fixed-right">
         <h2>tryHackMe.com Profile</h2>
         <Script src="https://tryhackme.com/badge/2793447" />
@@ -30,6 +30,5 @@ export default function Education() {
         <a href="https://www.freecodecamp.org/certification/mrgallifrey912/javascript-algorithms-and-data-structures-v8">
             JavaScript Algorithms and Data Structures (Beta)</a>
         </div>
-        </>
     );
 }

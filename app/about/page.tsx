@@ -4,7 +4,9 @@ import Education from "./components/edu-widget";
 export default function About() {
     return (
         <>
-        <Education />
+        <div>
+            <Education />
+        </div>
         <main className="flex flex-col container m-auto">
             <div className="container flex flex-col text-center">
                 <h1 className="text-4xl">About Me</h1>               
@@ -39,7 +41,6 @@ export default function About() {
                 Thank you for considering my journey and aspirations. I am excited about the opportunities that lie ahead and eager to contribute to impactful projects within the realm of full stack development.
                 </p>
             </div>
-            
         </main>
         </>
     );
