@@ -5,7 +5,7 @@ export default function About() {
     return (
         <>
         <div>
-            <Education />
+            
         </div>
         <main className="flex flex-col container m-auto">
             <div className="container flex flex-col text-center">
@@ -42,6 +42,7 @@ export default function About() {
                 </p>
             </div>
         </main>
+        <Education />
         </>
     );
 }
