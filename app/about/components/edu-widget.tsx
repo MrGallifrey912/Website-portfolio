@@ -33,7 +33,7 @@ export default function Education() {
         </ul>
         <div className="flex center text-center">
             <ul>
-                <lh>freeCodeCamp.org Certs</lh>
+                <label>freeCodeCamp.org Certs</label>
                 <li>
                     <a href="https://www.freecodecamp.org/certification/mrgallifrey912/responsive-web-design">
                 Responsive Web Design Cert</a>
