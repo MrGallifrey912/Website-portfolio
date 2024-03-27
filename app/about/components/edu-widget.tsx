@@ -3,9 +3,12 @@
 export default function Education() {
     return (
         <>
-        <div className="container flex fixed-right">
+        <div className="container flex">
         <div>
-        <img src="https://tryhackme-badges.s3.amazonaws.com/andrewjones.tech.png" alt="TryHackMe"></img>
+            <h3>tryHackMe.com</h3>
+            <a href="https://tryhackme.com/p/andrewjones.tech">
+                <img src="https://tryhackme-badges.s3.amazonaws.com/andrewjones.tech.png" alt="TryHackMe"></img>
+            </a>
         </div>
 
         <h2><a href="https://www.credly.com/users/andrew-jones.6e832892">Credly Profile</a></h2>
