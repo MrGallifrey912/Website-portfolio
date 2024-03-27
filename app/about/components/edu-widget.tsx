@@ -1,9 +1,12 @@
+'use client'
+
 import Script from 'next/script'
 
 export default function Education() {
     return (
         <>
-        <Script src="https://tryhackme.com/badge/2793447" />
+        <Script src="https://tryhackme.com/badge/2793447" 
+                strategy="lazyOnload" />
         <div className="container flex fixed-right">
         <h2>tryHackMe.com Profile</h2>
         
