@@ -31,5 +31,5 @@ export default function Education() {
             JavaScript Algorithms and Data Structures (Beta)</a>
         </div>
         </>
-    )
+    );
 }
