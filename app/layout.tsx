@@ -4,7 +4,7 @@ import "./globals.css";
 import "./button-styles.css";
 import Navigation from "./components/navbar";
 import Footer from "./components/footer";
-import Education from "./components/eduWidget";
+
 
 
 const inter = Inter({ subsets: ["latin"] });

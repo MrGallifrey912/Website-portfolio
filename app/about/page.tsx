@@ -1,4 +1,5 @@
-import Education from "./components/eduWidget";
+import Education from "./components/edu-widget";
+
 
 export default function About() {
     return (
