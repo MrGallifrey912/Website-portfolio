@@ -5,8 +5,10 @@ import Script from 'next/script'
 export default function Education() {
     return (
         <>
+        <head>
         <Script src="https://tryhackme.com/badge/2793447" 
                 strategy="lazyOnload" />
+        </head>
         <div className="container flex fixed-right">
         
         <h2>Coursera Achievements</h2>
