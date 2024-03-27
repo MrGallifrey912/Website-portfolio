@@ -4,8 +4,7 @@ export default function Education() {
     return (
         <>
         <head>
-        <Script src="https://tryhackme.com/badge/2793447" 
-                strategy="lazyOnload" />
+        <script src="https://tryhackme.com/badge/2793447"></script>
         </head>
         <div className="container flex fixed-right">
         
