@@ -3,7 +3,7 @@
 export default function Education() {
     return (
         <>
-        <div className="container flex justify-center bg-gray-700">
+        <div className="container flex justify-center bg-gray-700 m-auto mt-4">
         <div>
             <h3>tryHackMe.com</h3>
             <a href="https://tryhackme.com/p/andrewjones.tech">
