@@ -27,9 +27,10 @@ export default function Contact() {
           <label className="block text-center mb-2">Message</label>
           <textarea name="message" className="w-[270px]" required></textarea>
         </div>
-
+        {/** Add ReCAPTHCA before form submit */}
         <button type="submit" className="bg-green-600 rounded mb-32 p-2 w-[270px]">
          Contact</button>
+         {/** Add mailer here */}
       </form>
     </div>
   );

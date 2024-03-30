@@ -7,7 +7,7 @@ export default function About() {
         <div>
             
         </div>
-        <main className="flex flex-col container m-auto">
+        <main className="flex container m-auto">
             <div className="container flex flex-col text-center">
                 <h1 className="text-4xl">About Me</h1>               
             </div>
