@@ -20,5 +20,5 @@ try {
   console.error("Firebase initialization failed:", error.message);
 }
 
-export { app, auth };
+export { auth };
   

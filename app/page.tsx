@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { auth } from "./firebase";
+import { app, auth } from "./firebase";
 
 
 export default function Home() {
