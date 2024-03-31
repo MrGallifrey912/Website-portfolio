@@ -12,13 +12,9 @@ const firebaseConfig = {
     measurementId: ""
   };
 
-try {
+
   const app = initializeApp(firebaseConfig);
   const auth = getAuth(app);
-  console.log("Firebase initialized successfully!");
-} catch (error) {
-  console.error("Firebase initialization failed:", error.message);
-}
 
-export { auth };
+export { app, auth };
   
