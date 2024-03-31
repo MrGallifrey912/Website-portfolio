@@ -2,55 +2,10 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { app, auth } from "./firebase";
+
 
 
 export default function Home() {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
-
-  useEffect(() => {
-    auth.onAuthStateChanged((user) => {
-      setIsLoggedIn(!!user);
-    });
-  }, []);
-
-  const handleGoogleSignIn = async () => {
-    try {
-      await auth.signInWithPopup(new firebase.auth.GoogleAuthProvider());
-    } catch (error) {
-      const errorCode = error.code;
-      let errorMessage = 'An error occurred. Please try again.';
-      if (errorCode === 'auth/account-exists-with-different-credential') {
-        errorMessage = 'An account already exists with the same email address but different sign-in credentials.';
-      } else if (errorCode === 'auth/operation-not-supported-in-this-environment') {
-        errorMessage = 'Google Sign-In may not be supported in this environment.';
-      } else {
-        console.error(error); // Log the original error for debugging
-      }
-      alert(errorMessage);
-    }
-  };
-
-  const handleEmailSignIn = async () => {
-    const email = prompt('Enter your email:');
-    const password = prompt('Enter your password:');
-    if (!email || !password) {
-      alert('Please enter both email and password.');
-      return;
-    }
-    try {
-      await auth.signInWithEmailAndPassword(email, password);
-    } catch (error) {
-      const errorCode = error.code;
-      let errorMessage = 'Invalid email or password.';
-      if (errorCode === 'auth/wrong-password' || errorCode === 'auth/user-not-found') {
-        errorMessage = 'Invalid email or password combination.';
-    } else {
-      console.error(error); // Log the original error for debugging
-    }
-    alert(errorMessage);
-  };
-
   return (
     <>
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -67,11 +22,9 @@ export default function Home() {
 
       {/** Resume button */}
       <div className="flex justify-btween">
-      <button onClick={handleGoogleSignIn}>Sign in with Google</button>
-          <button onClick={handleEmailSignIn}>Sign in with Email</button>
+      
 
-          {/* Conditionally rendered resume button */}
-          {isLoggedIn && (
+          {/* resume button */}
             <a
               className="resume-btn relative hover:border-yellow-500 shadow-inner text-white font-bold py-2 px-4 rounded mt-16 mb-16 mr-16"
               href="Resume.pdf"
@@ -79,7 +32,7 @@ export default function Home() {
             >
               CV / Resume
             </a>
-          )} 
+          
       <a 
         className="contact-btn hover:bg-yellow-500 text-white font-bold py-2 px-4 rounded mt-16 mb-16 ml-16"
         href="/forms"
@@ -166,4 +119,4 @@ export default function Home() {
 </>
   );
 }
-}
+
