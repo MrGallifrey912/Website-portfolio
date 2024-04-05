@@ -26,7 +26,7 @@ export default function Home() {
 
           {/* resume button */}
             <a
-              className="resume-btn relative hover:border-yellow-500 shadow-inner text-white font-bold py-2 px-4 rounded mt-16 mb-16 mr-16"
+              className="resume-btn relative hover:bg-yellow-500 shadow-inner text-white font-bold py-2 px-4 rounded mt-16 mb-16 mr-16"
               href="Resume.pdf"
               download="Andrew-Jones.pdf"
             >
