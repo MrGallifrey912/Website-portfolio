@@ -13,10 +13,10 @@ export default function Navigation() {
         <li className={"mr-6"}><Link href="/projects" className={"text-green-50 hover:text-green-400"} style={{pointerEvents: "none"}}>Projects</Link></li>
         <li className={"mr-6"}><Link href="/blog" className={"text-green-50 hover:text-green-400"} style={{pointerEvents: "none"}}>Blog</Link></li>
       </ul>
-      <a
+      <Link
       className='w-8 h-8 bg-gray-500'>{/** Add user logic here*/}
 
-      </a>
+      </Link>
     </div>
     </div>
   );

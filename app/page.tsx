@@ -35,7 +35,7 @@ export default function Home() {
           
       <a 
         className="contact-btn hover:bg-yellow-500 text-white font-bold py-2 px-4 rounded mt-16 mb-16 ml-16"
-        href="/forms"
+        href="forms/contact"
       >  
         Contact me
       </a>
@@ -58,7 +58,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-center`}>
-            See the services I offer and provide. Contact me if you need something more or have further questions!
+            If you have a project and want to see the services I offer, click me! - Coming Soon!
           </p>
         </Link>
 
@@ -69,13 +69,13 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
+            News and Information{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-center`}>
-            Browse templates I have created for all platforms! Shop templates for all ma
+            Catch all the latest coding and cyber news by clicking on me! - Coming Soon!
           </p>
         </a>
 
@@ -86,13 +86,13 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Support and FaQ{" "}
+            Projects{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-center`}>
-            Click here for General support and Frequently asked questions.
+            Click me to see the projects U have completed or that I am currently working on! - Coming Soon!
           </p>
         </a>
 
@@ -109,7 +109,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance text-center`}>
-            I utilize Hostinger for all of my hosting needs, They provide a load of good features and are fast most importantly. Click me if youd like to host through hostinger! This is a refferal link.
+            If you are looking for hosting I use Hostinger for most my hosting needs, click me to find out more!
           </p>
         </a>
       </div>
