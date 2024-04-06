@@ -3,10 +3,10 @@ import Head from "next/head";
 
 export default function LoginPage() {
     return (
-        <>
+        <div>
             <Head>
-                <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-                <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+                <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+                <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css" />
                 <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
             </Head>
             <main>
@@ -30,7 +30,7 @@ export default function LoginPage() {
 
                     <input
                       className="mdl-textfield__input"
-                      style="display: inline; width: auto"
+                      style={{display: 'inline', width: 'auto'}}
                       type="text"
                       id="email"
                       name="email"
@@ -39,7 +39,7 @@ export default function LoginPage() {
                     &nbsp;&nbsp;&nbsp;
                     <input
                       className="mdl-textfield__input"
-                      style="display: inline; width: auto"
+                      style={{display: 'inline', width: 'auto'}}
                       type="password"
                       id="password"
                       name="password"
@@ -91,6 +91,7 @@ export default function LoginPage() {
                 </div>
             </div>
             </main>
-        </>
-    )
+        </div>
+    );
+
 }
