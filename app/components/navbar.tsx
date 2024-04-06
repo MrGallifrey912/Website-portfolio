@@ -16,7 +16,7 @@ export default function Navigation() {
       {/** Add user logic here */}
       <Link
       className="w-8 h-8 bg-gray-500"
-      href="/email-signup">
+      href="forms/email-signup">
       </Link>
     </div>
     </div>
