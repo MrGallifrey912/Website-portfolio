@@ -16,8 +16,8 @@ export default function Navigation() {
       {/** Add user logic here */}
       <Link
       className="w-8 h-8 bg-gray-500"
-      href="forms/email-signup">
-      </Link>
+      href="#">{/** forms/email-signup */}
+      null</Link>
     </div>
     </div>
     </>
