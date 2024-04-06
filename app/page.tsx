@@ -92,7 +92,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-center`}>
-            Click me to see the projects U have completed or that I am currently working on! - Coming Soon!
+            Click me to see the projects I have completed or that I am currently working on! - Coming Soon!
           </p>
         </a>
 
