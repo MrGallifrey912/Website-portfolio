@@ -21,3 +21,4 @@ if (window.location.hostname === 'localhost') {
 
 const emailInput = document.getElementById('email')! as HTMLInputElement;
 const pwInput = document.getElementById('password')! as HTMLInputElement;
+{/** work in progress, be back on 4/10 to complete */}
