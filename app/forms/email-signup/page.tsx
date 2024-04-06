@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Script from "next/script";
 
 
 export default function LoginPage() {
@@ -7,7 +8,7 @@ export default function LoginPage() {
             <Head>
                 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
                 <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css" />
-                <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+                <Script defer src="https://code.getmdl.io/1.3.0/material.min.js" />
             </Head>
             <main>
             <div className="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-grid">
@@ -91,6 +92,7 @@ export default function LoginPage() {
                 </div>
             </div>
             </main>
+            <Script type="module" src="email-pw.ts" />
         </div>
     );
 
