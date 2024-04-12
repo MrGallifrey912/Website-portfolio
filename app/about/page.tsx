@@ -4,14 +4,11 @@ import Education from "./components/edu-widget";
 export default function About() {
     return (
         <>
-        <div>
-            
-        </div>
-        <main className="flex container m-auto">
-            <div className="container flex flex-col text-center">
-                <h1 className="text-4xl">About Me</h1>               
+        <main className="justify-items-center m-auto mt-36">
+            <div className="text-center">
+                <h1 className="text-4xl mb-12">About Me</h1>               
             </div>
-            <div className="container flex flex-col bg-gray-700 bg-opacity-50 rounded m-2 p-2">
+            <div className="flex flex-col bg-gray-700 bg-opacity-50 rounded container m-auto ">
                 <p className="my-2">
                 Greetings! My name is Andrew Jones, and I am driven to become a proficient Full Stack Engineer. Initially, I held the belief that programming required choosing a specific path, either as a front-end or back-end developer.
                 However, I have always challenged this narrow perspective, considering it limiting and misleading. Initially, I embarked on a journey in front-end web design, under the impression that full application deployment was 

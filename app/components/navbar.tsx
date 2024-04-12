@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function Navigation() {
   return (
     <>
-    <div className={"flex justify-center mt-0"}>{/** Nav Container */}
+    <div className={"flex justify-center mt-12"}>{/** Nav Container */}
     <div className={"flex fixed bg-gray-900 rounded-2xl p-2 m-12 mt-0 justify-evenly w-[600px]"}>{/** UL Container */}
     <img className="w-10 h-10 relative rounded-[32px] border border-black justify-start" src="/IMG_2649.jpg" />{/** Nav img */}
       <ul className={"flex flex-row justify-items-center"}>
@@ -16,7 +16,7 @@ export default function Navigation() {
       {/** Add user logic here */}
       <Link
       className="w-8 h-8 bg-gray-500"
-      href="#">{/** forms/email-signup */}
+      href="forms/email-signup">{/**  */}
       null</Link>
     </div>
     </div>

@@ -10,7 +10,7 @@ export default function LoginPage() {
                 <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css" />
                 <Script defer src="https://code.getmdl.io/1.3.0/material.min.js" />
             </Head>
-            <main>
+            <main className="container flex flex-col m-auto mt-16 place-items-center">
             <div className="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-grid">
           {/** Container for the demo */}
                 <div
@@ -19,8 +19,8 @@ export default function LoginPage() {
                   <div
                     className="mdl-card__title mdl-color--light-blue-600 mdl-color-text--white"
                   >
-                    <h2 className="mdl-card__title-text">
-                      Firebase Email &amp; Password Authentication
+                    <h2 className="mdl-card__title-text flex justify-center">
+                      Sign In
                     </h2>
                   </div>
                   <div className="mdl-card__supporting-text mdl-color-text--grey-600">
@@ -81,13 +81,13 @@ export default function LoginPage() {
                       Send Password Reset Email
                     </button>
 
-                    {/**Container where we'll display the user details */}
+                    {/**Container where we'll display the user details 
                     <div className="quickstart-user-details-container">
                       Firebase sign-in status:
                       <span id="quickstart-sign-in-status">Unknown</span>
                       <div>Firebase auth <code>currentUser</code> object value:</div>
                       <pre><code id="quickstart-account-details">null</code></pre>
-                    </div>
+                    </div>*/}
                   </div>
                 </div>
             </div>

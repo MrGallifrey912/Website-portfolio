@@ -8,7 +8,7 @@ export default function Footer() {
                     <ul className="relative">
                         {/* Github */}
                         <li>
-                            <a href="#">Terms of Service</a> 
+                            <a href="#">FAQ</a> 
                         </li>
                         {/* privacy about cookies and data collection */}
                         <li>
@@ -16,7 +16,7 @@ export default function Footer() {
                         </li>
                         {/* some legal statements */}
                         <li>
-                            <a href="#">Legal</a>
+                            <a href="#">Community</a>
                         </li>
                         {/* team like page? */}
                         <li>
@@ -24,8 +24,8 @@ export default function Footer() {
                         </li>
                     </ul>
                 </div>
-                <div className="flex justify-between text-center">
-                    <p className="text-center -center">Andrew Jones</p>
+                <div className="flex justify-center text-center">
+                    <p className="relative text-center">Andrew Jones</p>
                 </div>
                 <div className="flex justify-between">
                     <ul className="relative">
