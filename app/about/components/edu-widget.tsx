@@ -7,9 +7,7 @@ export default function Education() {
         <div>
             <h3>tryHackMe.com</h3>
             <a href="https://tryhackme.com/p/andrewjones.tech">
-                <img 
-                className=""
-                src="https://tryhackme-badges.s3.amazonaws.com/andrewjones.tech.png" alt="TryHackMe"></img>
+            <img src="https://tryhackme-badges.s3.amazonaws.com/andrewjones.tech.png" alt="TryHackMe"></img>
             </a>
         </div>
 
